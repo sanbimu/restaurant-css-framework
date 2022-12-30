@@ -1,0 +1,71 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: #8A2901;
+}
+
+.navbar {
+    background-color: rgb(9, 1, 1);
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: rgba(231, 228, 223, 0.847);
+    background-color: #8A2901;
+    border-radius: 3px;
+}
+
+.navbar .navbar-brand {
+    color: rgba(231, 228, 223, 0.848)
+}
+
+.navbar-toggler-icon {
+    border: 1px solid rgba(231, 228, 223, 0.848);
+    border-radius: 2px;
+    background-color: rgba(231, 228, 223, 0.848) !important;
+}
+
+.drinks{
+    color: beige;
+    padding-top: 80px;
+}
+
+.food{
+    color: beige;
+    padding-top: 30px;
+}
+
+.list-group {
+    margin-top: 10px;
+
+}
+
+.badge {
+    margin-left: 10px;
+}
+
+.col-lg-10 {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+.background {
+    background-color: #8A2901;
+    position:absolute; 
+    height:100%; 
+    width:100%;
+}
+
+}
